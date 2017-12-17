@@ -17,11 +17,6 @@
             </intent-filter>
         </activity>
 
-        <receiver android:name=".AnotherBroadcastReceiver">
-            <intent-filter>
-                <action android:name="cn.edu.gdmec.android.broadcasttest2.MY_BROADCAST"/>
-            </intent-filter>
-        </receiver>
     </application>
 
 </manifest>
